@@ -1,0 +1,36 @@
+﻿2020-01-18 15:48:06> Program: Starting Squirrel Updater: --releasify MyApp.1.0.0.nupkg
+2020-01-18 15:48:06> Program: Bootstrapper EXE found at:C:\Users\Abdul\Desktop\Snake.cs\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-01-18 15:48:06> Unhandled exception: System.IO.FileNotFoundException: Файл 'MyApp.1.0.0.nupkg' не найден.
+Имя файла: 'MyApp.1.0.0.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   в Squirrel.Update.Program.executeCommandLine(String[] args)
+   в Squirrel.Update.Program.main(String[] args)
+2020-01-18 16:06:07> Program: Starting Squirrel Updater: --releasify MyPackage.1.0.0.nupkg
+2020-01-18 16:06:08> Program: Bootstrapper EXE found at:C:\Users\Abdul\Desktop\Snake.cs\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-01-18 16:06:08> Program: Creating release package: C:\Users\Abdul\Desktop\Snake.cs\bin\Release\Releases\MyPackage.1.0.0.nupkg
+2020-01-18 16:06:08> ReleasePackage: Creating release package: C:\Users\Abdul\Desktop\Snake.cs\bin\Release\Releases\MyPackage.1.0.0.nupkg => C:\Users\Abdul\Desktop\Snake.cs\bin\Release\Releases\MyPackage-1.0.0-full.nupkg
+2020-01-18 16:06:08> ReleasePackage: Extracting dependent packages: []
+2020-01-18 16:06:08> ReleasePackage: Removing unnecessary data
+2020-01-18 16:06:08> ReleasePackage: No release notes found in C:\Users\Abdul\AppData\Local\SquirrelTemp\tempg\MyPackage.nuspec
+2020-01-18 16:06:10> Program: Building embedded zip file for Setup.exe
+2020-01-19 14:05:16> Program: Starting Squirrel Updater: --releasify MyApp.1.0.0.nupkg
+2020-01-19 14:05:16> Program: Bootstrapper EXE found at:C:\Users\Abdul\Google Drive\Code\_MyGames\Snake.cs\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-01-19 14:05:16> Unhandled exception: System.IO.FileNotFoundException: Файл 'MyApp.1.0.0.nupkg' не найден.
+Имя файла: 'MyApp.1.0.0.nupkg'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   в System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   в Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   в Squirrel.Update.Program.executeCommandLine(String[] args)
+   в Squirrel.Update.Program.main(String[] args)
+2020-01-19 14:06:25> Program: Starting Squirrel Updater: --releasify MyPackage.1.0.0.nupkg
+2020-01-19 14:06:25> Program: Bootstrapper EXE found at:C:\Users\Abdul\Google Drive\Code\_MyGames\Snake.cs\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-01-19 14:06:25> Program: Creating release package: C:\Users\Abdul\Google Drive\Code\_MyGames\Snake.cs\bin\Release\Releases\MyPackage.1.0.0.nupkg
+2020-01-19 14:06:25> ReleasePackage: Creating release package: C:\Users\Abdul\Google Drive\Code\_MyGames\Snake.cs\bin\Release\Releases\MyPackage.1.0.0.nupkg => C:\Users\Abdul\Google Drive\Code\_MyGames\Snake.cs\bin\Release\Releases\MyPackage-1.0.0-full.nupkg
+2020-01-19 14:06:26> ReleasePackage: Extracting dependent packages: []
+2020-01-19 14:06:26> ReleasePackage: Removing unnecessary data
+2020-01-19 14:06:26> ReleasePackage: No release notes found in C:\Users\Abdul\AppData\Local\SquirrelTemp\tempg\MyPackage.nuspec
+2020-01-19 14:06:27> Program: Building embedded zip file for Setup.exe
